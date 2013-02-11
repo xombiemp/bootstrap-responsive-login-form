@@ -4,4 +4,4 @@
 
 You can check the live demo at **[HERE](http://arianraptor.com/bootstrap-responsive-login-form "Live Demo")**
 
-#### Button stat and Sticky Footer also supported too.. ####
+#### Button state and Sticky Footer also supported too.. ####
