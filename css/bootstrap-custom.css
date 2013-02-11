@@ -3,6 +3,25 @@
     float: none;
 }
 
+/* Custom Styles
+-------------------------------------------------- */
+.twitter-share-button {
+  padding-top: 10px;
+}
+
+.github {
+  margin-top: 40px;
+}
+
+.download {
+  margin: 30px 0 30px;
+  text-align: center;
+}
+
+.download .btn {
+  font-size: 20px;
+  padding: 12px 24px;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -19,10 +38,11 @@ body {
     height: auto !important;
     height: 100%;
 /* Negative indent footer by it's height */
-    margin: 0 auto -273px;
+    margin: 0 auto -120px;
 }
 
 /* Set the fixed height of the footer here */
+#push,
 #footer {
     height: 60px;
 }
@@ -94,6 +114,11 @@ body {
     #form-login .controls {
         margin-left: 80px;
     }
+    .github-btn {
+      float:none !important;
+      width: 100% !important;
+      margin: 0 !important;
+    }
 }
  
 /* Landscape phone to portrait tablet */
@@ -112,4 +137,7 @@ body {
 /* Landscape phones and down */
 @media (max-width: 480px) {
 
+  .brand {
+    font-size: 18px !important;
+  }
 }
